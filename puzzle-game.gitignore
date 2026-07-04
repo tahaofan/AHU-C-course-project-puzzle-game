@@ -1,0 +1,37 @@
+# VS编译临时文件
+*.tlog
+*.lastbuildstate
+*.ilk
+*.pdb
+*.obj
+*.o
+*.exe
+*.res
+*.map
+*.suo
+*.vsidx
+*.sdf
+Debug/
+Release/
+x64/Debug/
+x64/Release/
+
+# VS用户私有配置
+*.vcxproj.user
+*.vcproj.*.user
+
+# 压缩包、EasyX安装程序
+*.zip
+*.rar
+*.7z
+EasyX_*.exe
+
+# 系统垃圾
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 编辑器缓存
+.vscode/
+.idea/
+*.log
