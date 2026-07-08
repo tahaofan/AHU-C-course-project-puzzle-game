@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file    E_task.cpp
  * @brief   通关弹窗与游戏主循环实现
  *        拼图完成时弹出通关弹窗，提供"下一关"和"返回菜单"选项；
@@ -110,3 +110,4 @@ void runPuzzleGame() {
     }
     EndBatchDraw();
 }
+

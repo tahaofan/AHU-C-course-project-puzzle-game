@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file    main.cpp
  * @brief   程序入口，初始化窗口并驱动游戏主循环
  * @author  EasyX Puzzle Team
@@ -44,3 +44,4 @@ void main(void)
     }
     closegraph();
 }
+

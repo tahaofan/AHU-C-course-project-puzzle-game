@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file    F_task.cpp
  * @brief   全局资源与关卡数据实现
  *        定义所有 IMAGE 全局变量、游戏状态变量，
@@ -153,3 +153,4 @@ LevelData getLevelData(int level)
     }
     return data;
 }
+

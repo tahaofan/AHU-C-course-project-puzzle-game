@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file    C_task.cpp
  * @brief   拼图核心逻辑实现
  *        管理 12 块拼图的状态（待选区/拼图区/锁定），
@@ -166,3 +166,4 @@ void putimage_alpha(int x, int y, IMAGE* img) {
         }
     }
 }
+

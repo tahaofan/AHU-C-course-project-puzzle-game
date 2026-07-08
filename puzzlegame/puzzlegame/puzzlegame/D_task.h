@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file    D_task.h
  * @brief   滚动条模块 —— 拼图碎片分页显示与翻页交互
  * @author  EasyX Puzzle Team
@@ -34,3 +34,4 @@ extern ScrollBar scrollBar;
 void InitScrollBar(int level);
 void UpdateScrollBar();
 void DrawScrollBar();
+

@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file    B_task.cpp
  * @brief   关卡选择模块实现
  *        显示 7 个关卡图标（4+3 布局），点击后进入对应关卡。
@@ -119,3 +119,4 @@ void returnToMainMenu() {
 void startGame(int level) {
     gameState = IN_GAME;
 }
+

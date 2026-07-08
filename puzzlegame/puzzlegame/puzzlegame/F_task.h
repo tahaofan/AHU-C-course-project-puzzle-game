@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file    F_task.h
  * @brief   全局资源与数据结构定义
  *        声明所有 IMAGE 全局变量、拼图/关卡数据结构、
@@ -92,3 +92,4 @@ extern GameState gameState;
 
 void loadresources();
 LevelData getLevelData(int level);
+

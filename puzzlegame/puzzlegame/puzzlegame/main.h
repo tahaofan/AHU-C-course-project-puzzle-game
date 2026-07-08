@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file    main.h
  * @brief   项目主头文件，集中包含各模块头文件
  * @author  EasyX Puzzle Team
@@ -11,3 +11,4 @@
 #include "D_task.h"
 #include "E_task.h"
 #include "F_task.h"
+

@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file    C_task.h
  * @brief   拼图核心逻辑模块 —— 拼图块数据管理、拖拽、吸附、完成判定
  * @author  EasyX Puzzle Team
@@ -24,3 +24,4 @@ void UpdatePuzzle();
 bool CheckPuzzleComplete();
 void DrawPuzzle();
 void putimage_alpha(int x, int y, IMAGE* img);
+
