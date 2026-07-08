@@ -24,7 +24,7 @@
 
 ## 🖼️ 资源说明
 
-所有图片资源位于 `puzzlegame/puzzlegame/assets/` 目录下：
+所有图片资源位于 `puzzlegame/puzzlegame/assets/` 目录下（从项目根目录）：
 
 - `主菜单封面.jpg` / `选择关卡背景.jpg` — 界面背景
 - `开始游戏.jpg` / `退出游戏.jpg` — 主菜单按钮（含悬停状态 `*2.jpg`）
@@ -44,25 +44,26 @@
 
 ```
 puzzlegame/
-├── README.md
-├── LICENSE
-├── puzzlegame.sln              # Visual Studio 解决方案
-└── puzzlegame/
-    ├── puzzlegame.vcxproj      # 项目配置
-    ├── main.cpp / main.h       # 程序入口 & 主循环
-    ├── A_task.cpp / A_task.h   # 主菜单模块
-    ├── B_task.cpp / B_task.h   # 关卡选择模块
-    ├── C_task.cpp / C_task.h   # 拼图核心逻辑（拖拽、吸附、判定）
-    ├── D_task.cpp / D_task.h   # 碎片滚动条模块（分页翻页）
-    ├── E_task.cpp / E_task.h   # 通关弹窗 & 游戏主循环
-    ├── F_task.cpp / F_task.h   # 全局资源加载 & 数据结构
-    └── assets/                 # 图片 & 音频资源
+├── README.md                       # 本文件（项目说明）
+├── LICENSE                         # MIT 许可证
+├── puzzlegame/                     # 一级子目录
+│   ├── puzzlegame.sln              # Visual Studio 解决方案
+│   └── puzzlegame/                 # 二级子目录（源码 & 项目配置）
+│       ├── puzzlegame.vcxproj      # 项目配置
+│       ├── main.cpp / main.h       # 程序入口 & 主循环
+│       ├── A_task.cpp / A_task.h   # 主菜单模块
+│       ├── B_task.cpp / B_task.h   # 关卡选择模块
+│       ├── C_task.cpp / C_task.h   # 拼图核心逻辑（拖拽、吸附、判定）
+│       ├── D_task.cpp / D_task.h   # 碎片滚动条模块（分页翻页）
+│       ├── E_task.cpp / E_task.h   # 通关弹窗 & 游戏主循环
+│       ├── F_task.cpp / F_task.h   # 全局资源加载 & 数据结构
+│       └── assets/                 # 图片 & 音频资源
 ```
 
 ## 🚀 构建与运行
 
 1. 安装 [EasyX 图形库](https://easyx.cn/)
-2. 使用 **Visual Studio 2022** 打开 `puzzlegame.sln`
+2. 使用 **Visual Studio 2022** 打开 `puzzlegame/puzzlegame.sln`
 3. 选择 **x86 (Win32)** 平台（EasyX 仅支持 32 位）
 4. 按 `F5` 编译并运行
 
